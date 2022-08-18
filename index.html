@@ -8,22 +8,68 @@
     <title>The book</title>
 </head>
 <body>
-   <div class="container my-5">
-    <h2>normal container</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consequuntur ducimus laudantium, corrupti quaerat modi esse ipsam possimus ad provident nobis odio voluptatem ea iure obcaecati inventore eveniet ullam fuga?</p>
-   </div>
-   <div class="container-fluid">
-    <h2>fluid container</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, culpa. Accusamus deserunt eligendi illum ad odit laboriosam adipisci! Aliquam quod reprehenderit dolor eius libero harum vel minus iure dolorem laborum!</p>
-   </div>
    <div class="container-lg my-5">
-    <h2>100% width until lg screens, then continer</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem et magnam natus accusantium labore! Beatae reprehenderit, sed explicabo est modi magnam vel perferendis illum facere minus, debitis adipisci dolorum corrupti.</p>
+        <h2>basic grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-primary text-light">col 4</div>
+            </div>
+        </div>
    </div>
-   <div class="container-xl my-5">
-    <h2>100% width until xl screens, then container</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore, in consequuntur! Qui beatae aspernatur at consequatur deserunt exercitationem odit reiciendis amet odio rerum dolorum, eveniet vitae. Aliquid blanditiis delectus magni?</p>
-   </div>
+
+   <div class="container-lg my-5">
+    <h2>column width</h2>
+    <div class="row">
+        <div class="col-6">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+</div>
+
+<div class="container-lg my-5">
+    <h2>resposive column widths</h2>
+    <div class="row">
+        <div class="col-sm-4 col-lg-6">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-sm-4 col-lg-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+</div>
+
+<div class="container-lg my-5">
+    <h2>justifying columns</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 1</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col-md-3">
+            <div class="p-5 bg-primary text-light">col 3</div>
+        </div>
+    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
